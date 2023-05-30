@@ -8,10 +8,10 @@
 }
 /* BODY */
 .hero{
-    height: 100vh;
-    width: 100vw;
+    height: 100px;
     background: #eff4fd;
 }
+
 /* TRABAJO CON EL MENU */
 a{
     text-decoration: none;
@@ -91,9 +91,10 @@ nav ul li a:hover::after{
 
 /* Trabajo con el detail */
 .detail{
-    position: absolute;
+    position: relative;
     top: 35%;
     left: 8%;
+    margin-top: 250px;
 }
 /* TRABAJO CON EL TITULO */
 .detail hi{
@@ -136,6 +137,10 @@ nav ul li a:hover::after{
     text-align: left;
     font: normal 16px sans-serif;
     padding: 45px 50px;
+    margin-top: 250px;
+
+    /* trabajo aparte */
+    bottom: 0;
 }
 
 /* TRABAJO CON EL FOOTER LEFT (zok 2023) */
@@ -393,17 +398,56 @@ textarea{
         align-items: center;
     }
 
-    .main-c {
-        text-align: center;
+    .hero ul{
+        background-color: tomato;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
+    .hero ul li{
+        margin-bottom: 10px;
+    }
+
+    .hero ul li a{
+        font-size: 17px;
+    }
+
+    .main-c {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .main-c-texto{
+        font-size: 18px;
+        text-align: center;
+        padding: 0 20px;
+    }
     .media {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 130px;
     }
 
     .imagen-c {
         width: 100%;
     }
+    .footer-estilo{
+        background-color: tomato;
+        margin-top: 50px;
+    }
+
+    .footer-derecha{
+        margin-right: 50px;
+    }
+    
+    .titulo{
+        margin-top: 100px;
+    }
+
+    .main-responsive{
+        margin-top: 150px;
+    }
 }
+
