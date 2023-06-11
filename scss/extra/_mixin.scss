@@ -1,0 +1,17 @@
+//mixin
+
+@mixin cuerpo($height, $widht){
+    height: $height;
+    width: $widht;
+}
+
+
+@mixin posicion($top, $left){
+    top:$top;
+    left:$left;
+}
+
+@mixin font($size, $weight){
+    font-size: $size;
+    font-weight: $weight;
+}
