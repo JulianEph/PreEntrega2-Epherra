@@ -10,8 +10,8 @@
   width: 25%;
   height: 80%; }
 
-.detail, .imagen {
-  position: absolute; }
+.imagen {
+  position: relative; }
 
 .main-c {
   display: flex;
@@ -85,9 +85,45 @@
     margin-left: 220px; } }
 
 /* BODY */
-.hero {
-  height: 100vh;
-  width: 100vw; }
+.main-container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .main-container .video {
+    margin: 35px 60px;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    position: relative; }
+  .main-container .detail {
+    top: 35%;
+    left: 8%;
+    margin: 0px 60px;
+    width: 50%; }
+    .main-container .detail .btn {
+      color: #fff;
+      font-size: 16px;
+      text-transform: uppercase;
+      background: #fd4766;
+      border-radius: 500px;
+      display: inline-block;
+      font-weight: 500;
+      transition: all .4s ease-in-out;
+      border: 2px solid #fd4766; }
+    .main-container .detail h1 {
+      color: #1d1d25;
+      font-size: 70px;
+      line-height: 70px;
+      font-weight: 700px; }
+      .main-container .detail h1 span {
+        color: #fd4766; }
+    .main-container .detail p {
+      color: #1d1d25;
+      font-size: 18px;
+      margin-top: 25px;
+      margin-bottom: 30px; }
 
 a {
   text-decoration: none; }
@@ -148,33 +184,6 @@ header nav {
     header nav a:hover::after {
       width: 100%; }
 
-.detail {
-  top: 35%;
-  left: 8%; }
-  .detail .btn {
-    color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    background: #fd4766;
-    padding: 10px 10px;
-    border-radius: 500px;
-    display: inline-block;
-    font-weight: 500;
-    transition: all .4s ease-in-out;
-    border: 2px solid #fd4766; }
-  .detail h1 {
-    color: #1d1d25;
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 700px; }
-    .detail h1 span {
-      color: #fd4766; }
-    .detail h1 p {
-      color: #1d1d25;
-      font-size: 18px;
-      margin-top: 25px;
-      margin-bottom: 30px; }
-
 .imagen {
   bottom: 0;
   right: 200px; }
@@ -191,15 +200,14 @@ footer {
     background-color: black;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
-    width: 100%;
     text-align: left;
     font: normal 16px sans-serif;
-    margin-top: 250px;
-    bottom: 0; }
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%; }
   footer .footer-izquierda p {
     color: #8f9296;
-    font-size: 14px;
-    margin: 0; }
+    font-size: 14px; }
   footer .footer-links p {
     font-size: 18px;
     font-weight: bold;
