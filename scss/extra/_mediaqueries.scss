@@ -1,4 +1,4 @@
-@media (max-width: 600px){
+@media (max-width: 599px){
     header{
         nav{
             .btn{
@@ -9,12 +9,12 @@
     }
     .main-container{
         flex-direction: column-reverse;
-        align-items: left;
-        justify-content: left;
+        align-items: center;
+        justify-content: center;
         .video{
             position: relative;
             img{
-                width: 300px;
+                width: 250px;
                 height: 350px;
             }
         }
@@ -87,7 +87,7 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024px){
+@media (min-width: 599px) and (max-width: 1024px){
     header{
         nav{
             .logo{
