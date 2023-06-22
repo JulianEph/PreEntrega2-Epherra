@@ -14,7 +14,7 @@
         .video{
             position: relative;
             img{
-                width: 200px;
+                width: 300px;
                 height: 350px;
             }
         }
@@ -107,11 +107,13 @@
         }
     }
     .main-container{
-        margin-top: -100px;
+        display: flex;
+        flex-direction: column;   
         .video{
             order: 1;
             img{
-                width: 95%;
+                height: 300px;
+                width: 300px;
             }
         }
         .detail{
@@ -122,10 +124,11 @@
         margin-bottom: 10px;
         img{
             height: 200px;
+            width: 300px;
         }
         iframe{
             height: 200px;
-            width: 350px;
+            width: 260px;
         }
     }
     .row{
@@ -144,7 +147,7 @@
         }
     }
     .contact-form{
-        padding-right: 20px;
+        align-items: center;
     }
     .mobile-centrar{
         margin-top: 500px;
