@@ -107,11 +107,10 @@
       height: 200px;
       width: 260px; }
   .row {
-    margin-left: 50px;
-    margin-bottom: 20px; }
+    text-align: center; }
     .row .col-md-7 iframe {
       height: 300px;
-      width: 300px; }
+      width: 550px; }
   .main-responsive .contact {
     width: 100%; }
   .contact-form {
@@ -359,6 +358,10 @@ footer {
   .row .btn-mandar .btn-mandar:hover {
     transform: translateY(1px);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09); }
+
+.no-margin {
+  margin-left: 0;
+  margin-right: 0; }
 
 /* TRABAJO CON COMPROMISO */
 .main-c .main-c-texto {
